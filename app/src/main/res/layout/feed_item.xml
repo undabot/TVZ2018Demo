@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/user_feed"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/base_padding"
+    android:id="@+id/username"
+    android:textSize="16sp"
+    android:textStyle="bold"/>
+
+  <com.undabot.tvzdemo.views.SquareImageView
+    android:id="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+  <TextView
+    android:textSize="12sp"
+    android:drawablePadding="@dimen/base_padding"
+    android:gravity="center_vertical"
+    android:id="@+id/likes"
+    android:padding="@dimen/base_padding"
+    android:drawableLeft="@drawable/ic_like"
+    android:layout_width="wrap_content"
+    android:layout_height="64dp" />
+</LinearLayout>
